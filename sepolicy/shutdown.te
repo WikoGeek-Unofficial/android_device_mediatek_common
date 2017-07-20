@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binshutdown Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type shutdown_exec , exec_type, file_type;
+type shutdown ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive shutdown;
+init_daemon_domain(shutdown)
+unconfined_domain(shutdown)

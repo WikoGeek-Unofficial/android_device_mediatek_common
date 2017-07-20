@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binthermal Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type thermal_exec , exec_type, file_type;
+type thermal ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive thermal;
+init_daemon_domain(thermal)
+unconfined_domain(thermal)

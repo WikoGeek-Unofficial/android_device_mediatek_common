@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binscreencap Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type screencap_exec , exec_type, file_type;
+type screencap ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive screencap;
+init_daemon_domain(screencap)
+unconfined_domain(screencap)

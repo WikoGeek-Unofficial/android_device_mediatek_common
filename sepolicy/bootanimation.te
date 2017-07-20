@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binbootanimation Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type bootanimation_exec , exec_type, file_type;
+type bootanimation ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive bootanimation;
+init_daemon_domain(bootanimation)
+unconfined_domain(bootanimation)

@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binmobile_log_d Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type mobile_log_d_exec , exec_type, file_type;
+type mobile_log_d ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive mobile_log_d;
+init_daemon_domain(mobile_log_d)
+unconfined_domain(mobile_log_d)

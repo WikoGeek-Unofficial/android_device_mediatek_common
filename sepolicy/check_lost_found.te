@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbincheck_lost_found Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type check_lost_found_exec , exec_type, file_type;
+type check_lost_found ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive check_lost_found;
+init_daemon_domain(check_lost_found)
+unconfined_domain(check_lost_found)

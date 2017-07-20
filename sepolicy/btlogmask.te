@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binbtlogmask Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type btlogmask_exec , exec_type, file_type;
+type btlogmask ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive btlogmask;
+init_daemon_domain(btlogmask)
+unconfined_domain(btlogmask)

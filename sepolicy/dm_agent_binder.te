@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/bindm_agent_binder Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type dm_agent_binder_exec , exec_type, file_type;
+type dm_agent_binder ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive dm_agent_binder;
+init_daemon_domain(dm_agent_binder)
+unconfined_domain(dm_agent_binder)

@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbindirectiotest Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type directiotest_exec , exec_type, file_type;
+type directiotest ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive directiotest;
+init_daemon_domain(directiotest)
+unconfined_domain(directiotest)

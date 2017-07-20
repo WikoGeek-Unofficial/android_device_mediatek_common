@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binnvram_daemon Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type nvram_daemon_exec , exec_type, file_type;
+type nvram_daemon ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive nvram_daemon;
+init_daemon_domain(nvram_daemon)
+unconfined_domain(nvram_daemon)

@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binnetdiag Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type netdiag_exec , exec_type, file_type;
+type netdiag ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive netdiag;
+init_daemon_domain(netdiag)
+unconfined_domain(netdiag)

@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/bincputime Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type cputime_exec , exec_type, file_type;
+type cputime ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive cputime;
+init_daemon_domain(cputime)
+unconfined_domain(cputime)

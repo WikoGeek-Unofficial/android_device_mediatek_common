@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binext4_resize Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type ext4_resize_exec , exec_type, file_type;
+type ext4_resize ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive ext4_resize;
+init_daemon_domain(ext4_resize)
+unconfined_domain(ext4_resize)

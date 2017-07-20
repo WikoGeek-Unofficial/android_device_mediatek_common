@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binpermission_check Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type permission_check_exec , exec_type, file_type;
+type permission_check ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive permission_check;
+init_daemon_domain(permission_check)
+unconfined_domain(permission_check)

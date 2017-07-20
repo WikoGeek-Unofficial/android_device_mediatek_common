@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbincpueater Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type cpueater_exec , exec_type, file_type;
+type cpueater ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive cpueater;
+init_daemon_domain(cpueater)
+unconfined_domain(cpueater)

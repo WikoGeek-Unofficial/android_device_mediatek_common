@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbinshowmap Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type showmap_exec , exec_type, file_type;
+type showmap ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive showmap;
+init_daemon_domain(showmap)
+unconfined_domain(showmap)

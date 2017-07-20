@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binaudiocommand Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type audiocommand_exec , exec_type, file_type;
+type audiocommand ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive audiocommand;
+init_daemon_domain(audiocommand)
+unconfined_domain(audiocommand)

@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbinshowslab Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type showslab_exec , exec_type, file_type;
+type showslab ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive showslab;
+init_daemon_domain(showslab)
+unconfined_domain(showslab)

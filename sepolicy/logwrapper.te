@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binlogwrapper Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type logwrapper_exec , exec_type, file_type;
+type logwrapper ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive logwrapper;
+init_daemon_domain(logwrapper)
+unconfined_domain(logwrapper)

@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binscreenshot Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type screenshot_exec , exec_type, file_type;
+type screenshot ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive screenshot;
+init_daemon_domain(screenshot)
+unconfined_domain(screenshot)

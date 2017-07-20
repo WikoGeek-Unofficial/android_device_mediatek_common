@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binservice Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type service_exec , exec_type, file_type;
+type service ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive service;
+init_daemon_domain(service)
+unconfined_domain(service)

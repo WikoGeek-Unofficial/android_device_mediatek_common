@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binemcsmdlogger Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type emcsmdlogger_exec , exec_type, file_type;
+type emcsmdlogger ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive emcsmdlogger;
+init_daemon_domain(emcsmdlogger)
+unconfined_domain(emcsmdlogger)

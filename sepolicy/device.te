@@ -1,0 +1,79 @@
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# Device types
+type hw_random_device, dev_type;
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+type devmap_device, dev_type;
+type ttyMT2_device, dev_type;
+type ttyMT1_device, dev_type;
+type stpwmt_device, dev_type;
+type wmtdetect_device, dev_type;
+type wmtWifi_device, dev_type;
+type stpbt_device, dev_type;
+type fm_device, dev_type;
+type stpgps_device, dev_type;
+type pmem_multimedia_device, dev_type;
+type mt6516_isp_device, dev_type;
+type mt6516_IDP_device, dev_type;
+type mt9p012_device, dev_type;
+type mt6516_jpeg_device, dev_type;
+type FM50AF_device, dev_type;
+type M4U_device_device, dev_type;
+type hwmsensor_device, dev_type;
+type msensor_device, dev_type;
+type gsensor_device, dev_type;
+type als_ps_device, dev_type;
+type gyroscope_device, dev_type;
+type Vcodec_device, dev_type;
+type uio0_device, dev_type;
+type xt_qtaguid_device, dev_type;
+type rfkill_device, dev_type;
+type mali_device, dev_type;
+type mtkfb_vsync_device, dev_type;
+type sw_sync_device, dev_type;
+type sec_device, dev_type;
+type hid_keyboard_device, dev_type;
+type btn_device, dev_type;
+type uinput_device, dev_type;
+type TV_out_device, dev_type;
+type hdmitx_device, dev_type;
+type mtk_jpeg_device, dev_type;
+type mtk_disp_device, dev_type;
+type camera_sysram_device, dev_type;
+type camera_isp_device, dev_type;
+type camera_pipemgr_device, dev_type;
+type kd_camera_hw_device, dev_type;
+type kd_camera_flashlight_device, dev_type;
+type kd_camera_hw_bus2_device, dev_type;
+type MATV_device, dev_type;
+type mt_otg_test_device, dev_type;
+type mt_mdp_device, dev_type;
+type mtkg2d_device, dev_type;
+type misc_sd_device, dev_type;
+type mtk_sched_device, dev_type;
+type ampc0_device, dev_type;
+type mmp_device, dev_type;
+type ttyGS2_device, dev_type;
+type CAM_CAL_DRV_device, dev_type;
+type MTK_SMI_device, dev_type;
+type ebc_device, dev_type;
+type ttyGS0_device, dev_type;
+type ttyGS1_device, dev_type;
+type MT6516_H264_DEC_device, dev_type;
+type MT6516_Int_SRAM_device, dev_type;
+type MT6516_MM_QUEUE_device, dev_type;
+type MT6516_MP4_DEC_device, dev_type;
+type MT6516_MP4_ENC_device, dev_type;
+type sensor_device, dev_type;
+
+type xlog_device, dev_type;
+type aed_device, dev_type;
+type ccci_device, dev_type;
+type mt6605_device, dev_type;
+type exm0_device, dev_type; 

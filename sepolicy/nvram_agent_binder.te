@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binnvram_agent_binder Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type nvram_agent_binder_exec , exec_type, file_type;
+type nvram_agent_binder ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive nvram_agent_binder;
+init_daemon_domain(nvram_agent_binder)
+unconfined_domain(nvram_agent_binder)

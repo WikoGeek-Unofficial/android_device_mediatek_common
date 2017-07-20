@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbintcpdump Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type tcpdump_exec , exec_type, file_type;
+type tcpdump ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive tcpdump;
+init_daemon_domain(tcpdump)
+unconfined_domain(tcpdump)

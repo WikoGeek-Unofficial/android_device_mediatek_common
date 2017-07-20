@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binccci_mdinit Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type ccci_mdinit_exec , exec_type, file_type;
+type ccci_mdinit ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive ccci_mdinit;
+init_daemon_domain(ccci_mdinit)
+unconfined_domain(ccci_mdinit)

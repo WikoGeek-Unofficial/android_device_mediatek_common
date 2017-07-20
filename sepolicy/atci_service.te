@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binatci_service Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type atci_service_exec , exec_type, file_type;
+type atci_service ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive atci_service;
+init_daemon_domain(atci_service)
+unconfined_domain(atci_service)

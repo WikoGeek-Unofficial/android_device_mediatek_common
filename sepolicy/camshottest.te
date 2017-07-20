@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/bincamshottest Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type camshottest_exec , exec_type, file_type;
+type camshottest ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive camshottest;
+init_daemon_domain(camshottest)
+unconfined_domain(camshottest)

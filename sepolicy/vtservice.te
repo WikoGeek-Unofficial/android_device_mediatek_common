@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binvtservice Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type vtservice_exec , exec_type, file_type;
+type vtservice ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive vtservice;
+init_daemon_domain(vtservice)
+unconfined_domain(vtservice)

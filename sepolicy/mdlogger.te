@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binmdlogger Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type mdlogger_exec , exec_type, file_type;
+type mdlogger ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive mdlogger;
+init_daemon_domain(mdlogger)
+unconfined_domain(mdlogger)

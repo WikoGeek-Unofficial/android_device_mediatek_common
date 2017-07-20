@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binwlan_loader Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type wlan_loader_exec , exec_type, file_type;
+type wlan_loader ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive wlan_loader;
+init_daemon_domain(wlan_loader)
+unconfined_domain(wlan_loader)

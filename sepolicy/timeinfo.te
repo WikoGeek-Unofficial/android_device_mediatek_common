@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbintimeinfo Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type timeinfo_exec , exec_type, file_type;
+type timeinfo ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive timeinfo;
+init_daemon_domain(timeinfo)
+unconfined_domain(timeinfo)

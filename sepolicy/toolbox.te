@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/bintoolbox Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type toolbox_exec , exec_type, file_type;
+type toolbox ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive toolbox;
+init_daemon_domain(toolbox)
+unconfined_domain(toolbox)

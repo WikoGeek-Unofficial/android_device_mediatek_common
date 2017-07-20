@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbinlatencytop Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type latencytop_exec , exec_type, file_type;
+type latencytop ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive latencytop;
+init_daemon_domain(latencytop)
+unconfined_domain(latencytop)

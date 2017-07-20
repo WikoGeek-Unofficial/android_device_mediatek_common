@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binsdiotool Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type sdiotool_exec , exec_type, file_type;
+type sdiotool ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive sdiotool;
+init_daemon_domain(sdiotool)
+unconfined_domain(sdiotool)

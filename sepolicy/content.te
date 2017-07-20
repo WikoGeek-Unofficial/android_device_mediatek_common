@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/bincontent Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type content_exec , exec_type, file_type;
+type content ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive content;
+init_daemon_domain(content)
+unconfined_domain(content)

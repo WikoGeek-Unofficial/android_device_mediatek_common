@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binGoogleOtaBinder Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type GoogleOtaBinder_exec , exec_type, file_type;
+type GoogleOtaBinder ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive GoogleOtaBinder;
+init_daemon_domain(GoogleOtaBinder)
+unconfined_domain(GoogleOtaBinder)

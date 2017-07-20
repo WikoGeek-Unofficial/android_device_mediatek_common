@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbinsane_schedstat Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type sane_schedstat_exec , exec_type, file_type;
+type sane_schedstat ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive sane_schedstat;
+init_daemon_domain(sane_schedstat)
+unconfined_domain(sane_schedstat)

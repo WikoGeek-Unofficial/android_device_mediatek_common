@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binupdater Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type updater_exec , exec_type, file_type;
+type updater ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive updater;
+init_daemon_domain(updater)
+unconfined_domain(updater)

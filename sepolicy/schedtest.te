@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binschedtest Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type schedtest_exec , exec_type, file_type;
+type schedtest ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive schedtest;
+init_daemon_domain(schedtest)
+unconfined_domain(schedtest)

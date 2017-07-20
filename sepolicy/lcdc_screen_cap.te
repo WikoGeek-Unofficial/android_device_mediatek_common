@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binlcdc_screen_cap Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type lcdc_screen_cap_exec , exec_type, file_type;
+type lcdc_screen_cap ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive lcdc_screen_cap;
+init_daemon_domain(lcdc_screen_cap)
+unconfined_domain(lcdc_screen_cap)

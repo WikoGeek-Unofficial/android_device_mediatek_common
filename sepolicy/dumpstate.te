@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/bindumpstate Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type dumpstate_exec , exec_type, file_type;
+type dumpstate ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive dumpstate;
+init_daemon_domain(dumpstate)
+unconfined_domain(dumpstate)

@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/bintiny_swapon Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type tiny_swapon_exec , exec_type, file_type;
+type tiny_swapon ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive tiny_swapon;
+init_daemon_domain(tiny_swapon)
+unconfined_domain(tiny_swapon)

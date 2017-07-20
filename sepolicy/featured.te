@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binfeatured Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type featured_exec , exec_type, file_type;
+type featured ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive featured;
+init_daemon_domain(featured)
+unconfined_domain(featured)

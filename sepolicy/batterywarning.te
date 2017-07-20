@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binbatterywarning Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type batterywarning_exec , exec_type, file_type;
+type batterywarning ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive batterywarning;
+init_daemon_domain(batterywarning)
+unconfined_domain(batterywarning)

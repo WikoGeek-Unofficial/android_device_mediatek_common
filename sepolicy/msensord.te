@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binmsensord Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type msensord_exec , exec_type, file_type;
+type msensord ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive msensord;
+init_daemon_domain(msensord)
+unconfined_domain(msensord)

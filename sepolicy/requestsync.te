@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binrequestsync Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type requestsync_exec , exec_type, file_type;
+type requestsync ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive requestsync;
+init_daemon_domain(requestsync)
+unconfined_domain(requestsync)

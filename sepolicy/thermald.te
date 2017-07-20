@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binthermald Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type thermald_exec , exec_type, file_type;
+type thermald ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive thermald;
+init_daemon_domain(thermald)
+unconfined_domain(thermald)

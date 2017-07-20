@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbinadd_property_tag Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type add_property_tag_exec , exec_type, file_type;
+type add_property_tag ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive add_property_tag;
+init_daemon_domain(add_property_tag)
+unconfined_domain(add_property_tag)

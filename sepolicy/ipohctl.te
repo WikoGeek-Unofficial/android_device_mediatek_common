@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binipohctl Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type ipohctl_exec , exec_type, file_type;
+type ipohctl ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive ipohctl;
+init_daemon_domain(ipohctl)
+unconfined_domain(ipohctl)

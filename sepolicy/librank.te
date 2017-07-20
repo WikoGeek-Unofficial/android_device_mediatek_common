@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/xbinlibrank Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type librank_exec , exec_type, file_type;
+type librank ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive librank;
+init_daemon_domain(librank)
+unconfined_domain(librank)

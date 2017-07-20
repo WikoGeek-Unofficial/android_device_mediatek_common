@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binboot_logo_updater Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type boot_logo_updater_exec , exec_type, file_type;
+type boot_logo_updater ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive boot_logo_updater;
+init_daemon_domain(boot_logo_updater)
+unconfined_domain(boot_logo_updater)

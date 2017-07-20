@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binresize2fs Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type resize2fs_exec , exec_type, file_type;
+type resize2fs ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive resize2fs;
+init_daemon_domain(resize2fs)
+unconfined_domain(resize2fs)

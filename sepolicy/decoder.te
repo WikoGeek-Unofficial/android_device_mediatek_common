@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/bindecoder Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type decoder_exec , exec_type, file_type;
+type decoder ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive decoder;
+init_daemon_domain(decoder)
+unconfined_domain(decoder)

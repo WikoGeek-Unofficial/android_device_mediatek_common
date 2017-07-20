@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binmuxreport Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type muxreport_exec , exec_type, file_type;
+type muxreport ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive muxreport;
+init_daemon_domain(muxreport)
+unconfined_domain(muxreport)

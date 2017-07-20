@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binterservice Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type terservice_exec , exec_type, file_type;
+type terservice ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive terservice;
+init_daemon_domain(terservice)
+unconfined_domain(terservice)

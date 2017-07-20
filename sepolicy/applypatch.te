@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/binapplypatch Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type applypatch_exec , exec_type, file_type;
+type applypatch ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive applypatch;
+init_daemon_domain(applypatch)
+unconfined_domain(applypatch)

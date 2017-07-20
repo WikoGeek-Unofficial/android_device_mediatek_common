@@ -1,0 +1,26 @@
+# ==============================================
+# Policy File of /system/bindumpsys Executable File 
+
+
+# ==============================================
+# Type Declaration
+# ==============================================
+
+type dumpsys_exec , exec_type, file_type;
+type dumpsys ,domain;
+
+# ==============================================
+# Android Policy Rule
+# ==============================================
+
+# ==============================================
+# NSA Policy Rule
+# ==============================================
+
+# ==============================================
+# MTK Policy Rule
+# ==============================================
+
+permissive dumpsys;
+init_daemon_domain(dumpsys)
+unconfined_domain(dumpsys)
